@@ -1,0 +1,66 @@
+
+
+.nosotros-container {
+    background-attachment: fixed;
+    background-image: url(https://dlcdnrog.asus.com/rog/media/1567174292266.webp);
+    padding: 50px 10%;
+  }
+  
+  .nosotros-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .nosotros-header h1 {
+    margin-top: 10vh;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros-header p {
+    font-size: 18px;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .nosotros-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .nosotros-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nosotros-section .nosotros-image {
+    width: 50%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 300px;
+  }
+  
+  .section-text {
+    width: 45%;
+  }
+  
+  .section-text h2 {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  .section-text p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+  }
+  

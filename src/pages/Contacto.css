@@ -1,0 +1,96 @@
+
+.contacto-container {
+  padding: 50px 10%;
+}
+  
+.contacto-header {
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  background-color: #ffffff9f;
+}
+  
+.contacto-header h1 {
+  margin-top: 10vh;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+  
+.contacto-header p {
+  font-size: 18px;
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto;
+}
+  
+.contacto-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  background-color: #ffffff9f;
+}
+  
+.contacto-info-item {
+  margin-left: 15vh;
+  width: 100vh;
+}
+  
+.contacto-info-item h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+  
+.contacto-info-item p {
+  font-size: 18px;
+  color: #000000;
+}
+  
+.contacto-form h2 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+.contacto-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 80vh;
+  margin: 0 auto;
+}
+  
+.form-group label {
+  font-size: 25px;
+  color: #000000;
+}
+  
+.form-group input, .form-group textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  width: 100%;
+}
+  
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+  
+.submit-button {
+  padding: 12px 20px;
+  background-color: #25973f;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+  
+.submit-button:hover {
+  background-color: #218838;
+}
+  

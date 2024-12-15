@@ -1,0 +1,59 @@
+
+.accesorios-container {
+  text-align: center;
+  padding: 50px;
+  background-attachment: fixed;
+  background-image: url(https://a-static.besthdwallpaper.com/asus-rog-republic-of-gamers-cyber-city-wallpaper-1680x1050-63807_5.jpg);
+  color: #000000;
+}
+
+.accesorios-container h1 {
+  margin-top: 10vh;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.accesorios-container p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.accesorios-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.accesorio {
+  background: #00000057;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accesorio:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.accesorio img {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.accesorio h2 {
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.accesorio p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}

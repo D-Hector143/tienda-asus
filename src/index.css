@@ -1,0 +1,7 @@
+body {
+  background-image: url(https://dlcdnrog.asus.com/rog/media/1539690109131.webp);
+  height: 100vh;
+  background-size: cover;
+  margin: 0;  
+  background-attachment: fixed;
+}
